@@ -1,0 +1,423 @@
+Oh god, new serviceYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pahlawan Design Code — Perlombaan Vibe Coding & Desain Grafis</title>
+    <meta name="description" content="Kompetisi IT tingkat kelas — Vibe Coding dan Desain Grafis. Tunjukkan skill terbaik kamu dan raih juara!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Decorative SVG Lines -->
+    <div class="deco-lines" aria-hidden="true">
+        <svg class="deco-svg" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <!-- Top-left corner bracket -->
+            <path d="M0 180 L0 40 Q0 0 40 0 L200 0" stroke="url(#lineGrad1)" stroke-width="1.5" class="draw-line dl-1"/>
+            <path d="M0 200 L0 60 Q0 20 40 20 L180 20" stroke="url(#lineGrad1)" stroke-width="1" class="draw-line dl-2" opacity="0.4"/>
+            
+            <!-- Top-right corner bracket -->
+            <path d="M1440 180 L1440 40 Q1440 0 1400 0 L1240 0" stroke="url(#lineGrad2)" stroke-width="1.5" class="draw-line dl-3"/>
+            <path d="M1440 200 L1440 60 Q1440 20 1400 20 L1260 20" stroke="url(#lineGrad2)" stroke-width="1" class="draw-line dl-4" opacity="0.4"/>
+            
+            <!-- Flowing horizontal line with arrow -->
+            <path d="M-50 320 Q200 320 400 280 T800 300 T1200 260 L1500 260" stroke="url(#lineGrad3)" stroke-width="1.5" class="draw-line dl-5"/>
+            <polygon points="1490,260 1470,252 1470,268" fill="#2979FF" class="arrow-head"/>
+            
+            <!-- Circle decoration left -->
+            <circle cx="80" cy="450" r="60" stroke="url(#lineGrad1)" stroke-width="1.2" fill="none" class="draw-circle dc-1"/>
+            <circle cx="80" cy="450" r="40" stroke="url(#lineGrad1)" stroke-width="0.8" fill="none" class="draw-circle dc-2" opacity="0.3"/>
+            
+            <!-- Geometric shapes right -->
+            <rect x="1300" y="400" width="100" height="100" rx="8" stroke="url(#lineGrad2)" stroke-width="1.2" fill="none" class="draw-line dl-6" transform="rotate(15, 1350, 450)"/>
+            <rect x="1310" y="410" width="80" height="80" rx="6" stroke="url(#lineGrad2)" stroke-width="0.8" fill="none" class="draw-line dl-7" opacity="0.3" transform="rotate(15, 1350, 450)"/>
+            
+            <!-- Bottom flowing lines -->
+            <path d="M-50 700 Q300 680 500 720 T900 690 T1500 710" stroke="url(#lineGrad3)" stroke-width="1" class="draw-line dl-8" opacity="0.5"/>
+            <path d="M-50 730 Q300 710 500 750 T900 720 T1500 740" stroke="url(#lineGrad3)" stroke-width="0.8" class="draw-line dl-9" opacity="0.3"/>
+            
+            <!-- Cross/plus decoration -->
+            <line x1="1380" y="180" x2="1380" y2="240" stroke="url(#lineGrad2)" stroke-width="1.2" class="draw-line dl-10"/>
+            <line x1="1350" y="210" x2="1410" y2="210" stroke="url(#lineGrad2)" stroke-width="1.2" class="draw-line dl-11"/>
+            
+            <!-- Dot grid -->
+            <circle cx="120" cy="620" r="2" fill="#448AFF" opacity="0.5" class="dot"/>
+            <circle cx="150" cy="620" r="2" fill="#448AFF" opacity="0.5" class="dot"/>
+            <circle cx="180" cy="620" r="2" fill="#448AFF" opacity="0.5" class="dot"/>
+            <circle cx="120" cy="650" r="2" fill="#448AFF" opacity="0.5" class="dot"/>
+            <circle cx="150" cy="650" r="2" fill="#448AFF" opacity="0.5" class="dot"/>
+            <circle cx="180" cy="650" r="2" fill="#448AFF" opacity="0.5" class="dot"/>
+            <circle cx="120" cy="680" r="2" fill="#448AFF" opacity="0.5" class="dot"/>
+            <circle cx="150" cy="680" r="2" fill="#448AFF" opacity="0.5" class="dot"/>
+            <circle cx="180" cy="680" r="2" fill="#448AFF" opacity="0.5" class="dot"/>
+            
+            <defs>
+                <linearGradient id="lineGrad1" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#1565C0"/>
+                    <stop offset="100%" stop-color="#42A5F5"/>
+                </linearGradient>
+                <linearGradient id="lineGrad2" x1="1440" y1="0" x2="1200" y2="200" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#1565C0"/>
+                    <stop offset="100%" stop-color="#42A5F5"/>
+                </linearGradient>
+                <linearGradient id="lineGrad3" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#1565C0"/>
+                    <stop offset="50%" stop-color="#2979FF"/>
+                    <stop offset="100%" stop-color="#42A5F5"/>
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <!-- Baris ini yang diganti -->
+                <img src="asset/padeco.png" alt="Logo Pahlawan Design Code" style="height: 50px; width: 70px; background-color: white; border-radius: 50%; padding: 2px; object-fit: contain;">
+                <span class="logo-text">Pahlawan Design Code</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#categories">Kategori</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="peraturan.html">Peraturan</a></li>
+            </ul>
+            <a href="#register" class="nav-cta">Daftar Sekarang</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-container">
+            <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                <span class="gradient-text">Pahlawan Design Code 2026</span>
+                <br>
+                <span class="hero-subtitle-text">Fakultas Ilmu Komputer</span> 
+                <br>
+                 <img src="asset/unival.png" alt="Logo unival" style="height: 300px; width: 300px; background-color: white; border-radius: 50%; padding: 2px; object-fit: contain;">
+                 <br>
+                 <span class="hero-subtitle-text">Universitas Al-Khairiyah</span>
+            </h1>
+            <p class="hero-description" data-animate="fade-up" data-delay="200">
+                Tunjukkan kemampuan terbaik kamu dalam bidang teknologi. Bersaing dengan sekolah di seluruh cilegon dalam dua kategori seru — <strong>Vibe Coding</strong> & <strong>Desain Grafis</strong>.
+            </p>
+            <div class="hero-actions" data-animate="fade-up" data-delay="300">
+                <a href="#register" class="btn btn-primary">
+                    <span>Daftar Sekarang</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+                <a href="#categories" class="btn btn-outline">
+                    Lihat Kategori
+                </a>
+
+                <a href="peraturan.html" class="btn btn-outline">
+                    Peraturan
+                </a>
+            </div>
+            <div class="hero-stats" data-animate="fade-up" data-delay="400">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="2">0</span>
+                    <span class="stat-label">Kategori</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="40">0</span>
+                    <span class="stat-label">Peserta</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">🏆</span>
+                    <span class="stat-label">Hadiah Menarik</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Tentang Acara</span>
+                <h2 class="section-title">
+                    <span class="gradient-text">Apa itu Pahlawan Design Code?</span>
+                </h2>
+            </div>
+            <div class="about-grid" data-animate="fade-up" data-delay="100">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+                    </div>
+                    <h3>PADECO (Pahlawan Desain Code)</h3>
+                    <p>merupakan kompetisi di bidang teknologi dan kreativitas digital yang diselenggarakan sebagai wadah bagi pelajar dan masyarakat untuk menyalurkan kemampuan dalam mengembangkan teknologi serta desain grafis.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>TUJUAN</h3>
+                    <p>Meningkatkan kreativitas generasi muda dalam bidang teknologi dan desain,
+                       Menumbuhkan semangat kepahlawanan melalui karya digital,
+                       Menjadi wadah kompetisi yang suportif, inovatif, dan edukatif Serta Mengembangkan kemampuan problem solving dan berpikir kreatif peserta.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+                    </div>
+                    <h3>Hadiah Juara</h3>
+                    <p>Tunjukkan kemampuan terbaikmu sebagai pahlawan era digital dan bawa pulang paket hadiah istimewa, trofi penghargaan, sertifikat prestasi, serta rekognisi membanggakan yang akan memperkuat portofolio karier kreatifmu ke depan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Kategori Lomba</span>
+                <h2 class="section-title">
+                    <span class="gradient-text">Pilih Kategori Kamu</span>
+                </h2>
+                <p class="section-desc">Dua kategori seru yang bisa kamu ikuti. Pilih sesuai minat dan keahlian kamu!</p>
+            </div>
+
+            <div class="category-grid" data-animate="fade-up" data-delay="100">
+                <!-- Vibe Coding Card -->
+                <div class="category-card" id="vibeCoding">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-icon-wrap">
+                            <div class="card-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="12" y1="2" x2="12" y2="22" transform="rotate(-15, 12, 12)"/></svg>
+                            </div>
+                        </div>
+                        <div class="card-number">01</div>
+                        <h3 class="card-title">Vibe Coding</h3>
+                        <p class="card-desc">
+                            Buat aplikasi atau website keren dengan memanfaatkan AI sebagai asisten coding kamu. Tunjukkan bahwa kamu bisa "vibe" bareng AI untuk menghasilkan karya yang luar biasa!
+                        </p>
+                        <ul class="card-features">
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                Boleh menggunakan AI tools
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                Kreativitas & fungsionalitas dinilai
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                Presentasi hasil karya
+                            </li>
+                        </ul>
+                        <a href="#register" class="card-cta">
+                            Daftar Vibe Coding
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Desain Grafis Card -->
+                <div class="category-card" id="desainGrafis">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-icon-wrap">
+                            <div class="card-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m2 13 5-5 4 4 6-6 5 5"/><path d="M2 19h20"/><circle cx="17" cy="7" r="3"/></svg>
+                            </div>
+                        </div>
+                        <div class="card-number">02</div>
+                        <h3 class="card-title">Desain Grafis</h3>
+                        <p class="card-desc">
+                            Tuangkan ide kreatif kamu ke dalam visual yang memukau. Buat desain poster, banner, atau karya grafis lainnya yang menunjukkan sense of design kamu!
+                        </p>
+                        <ul class="card-features">
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                Bebas pakai tools desain apapun
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                Estetika & orisinalitas dinilai
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                Tema akan ditentukan saat lomba
+                            </li>
+                        </ul>
+                        <a href="#register" class="card-cta">
+                            Daftar Desain Grafis
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section" id="timeline">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Jadwal Acara</span>
+                <h2 class="section-title">
+                    <span class="gradient-text">Timeline Kompetisi</span>
+                </h2>
+            </div>
+            <div class="timeline" data-animate="fade-up" data-delay="100">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-dot active"></span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date"> 6 November 2026 </span>
+                        <h3>Pendaftaran Dibuka</h3>
+                        <p>Daftarkan dirimu dan pilih kategori yang ingin kamu ikuti.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-dot"></span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date"> 6 November 2026 </span>
+                        <h3>Technical Meeting</h3>
+                        <p>Penjelasan detail mengenai aturan, tema, dan kriteria penilaian lomba.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-dot"></span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date"> 10 November 2026 </span>
+                        <h3>Hari Perlombaan</h3>
+                        <p>Tunjukkan skill terbaik kamu dan bersaing untuk jadi yang terbaik!</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-dot"></span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date"> 10 November 2026 </span>
+                        <h3>Pengumuman Pemenang</h3>
+                        <p>Pengumuman juara dan pembagian hadiah untuk para pemenang.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">FAQ</span>
+                <h2 class="section-title">
+                    <span class="gradient-text">Pertanyaan Umum</span>
+                </h2>
+            </div>
+            <div class="faq-list" data-animate="fade-up" data-delay="100">
+                <div class="faq-item" id="faq-1">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Siapa saja yang bisa ikut?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Kompetisi ini terbuka untuk seluruh sekolah yang ada di cilegon . Setiap peserta bisa mendaftar di salah satu atau kedua kategori.</p>
+                    </div>
+                </div>
+                <div class="faq-item" id="faq-2">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Apakah boleh ikut dua kategori sekaligus?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Boleh! Kamu bisa mendaftar di kedua kategori — Vibe Coding dan Desain Grafis — selama kamu mampu mengerjakan keduanya.</p>
+                    </div>
+                </div>
+                <div class="faq-item" id="faq-3">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Apa yang dimaksud dengan Vibe Coding?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Vibe Coding adalah membuat project coding dengan bantuan AI tools seperti ChatGPT, Gemini, Claude atau sejenisnya. Yang dinilai adalah kreativitas, fungsionalitas, dan bagaimana kamu memanfaatkan AI.</p>
+                    </div>
+                </div>
+                <div class="faq-item" id="faq-4">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Tools apa yang boleh digunakan untuk Desain Grafis?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Kamu di haruskan menggunakan Adobe Photoshop dan yang paling penting hasilnya orisinal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration CTA Section -->
+    <section class="register-section" id="register">
+        <div class="container">
+            <div class="register-card" data-animate="fade-up">
+                <div class="register-deco">
+                    <div class="register-circle c1"></div>
+                    <div class="register-circle c2"></div>
+                </div>
+                <h2 class="register-title">
+                    <span class="gradient-text">Siap Berkompetisi?</span>
+                </h2>
+                <p class="register-desc">Jangan sampai ketinggalan! Daftarkan dirimu sekarang dan tunjukkan bahwa kamu yang terbaik di kelas.</p>
+                <a href="#" class="btn btn-primary btn-lg" id="registerBtn">
+                    <span>Daftar Sekarang</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+                <p class="register-note">* Link pendaftaran akan segera tersedia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+               <div class="footer-brand">
+                    <!-- Baris ini yang diganti -->
+                    <img src="asset/padeco.png" alt="Logo Pahlawan Design Code" style="height: 80px; width: 100px; background-color: white; border-radius: 50%; padding: 2px; object-fit: contain;">
+                    <span class="logo-text">Pahlawan Design Code</span>
+                </div>
+                <p class="footer-text">© 2026 Pahlawan Design Code — Class Edition. All rights reserved.</p>
+              <div class="social-links" style="display: flex; gap: 15px; align-items: center;">
+                    <span style="color: var(--text-secondary); font-size: 0.9rem;">Jika Ada Masalah hubungi Kami:</span>
+                    <!-- Link Instagram -->
+                    <a href="https://instagram.com/24kom.a" target="_blank" rel="noopener noreferrer" style="color: var(--text-primary); transition: color 0.3s, transform 0.3s;" onmouseover="this.style.color='#E1306C'; this.style.transform='scale(1.1)'" onmouseout="this.style.color='var(--text-primary)'; this.style.transform='scale(1)'" title="Instagram Kami">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+    <script src="script.js"></script>
+</body>
+</html>
